@@ -1,0 +1,14 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.Wheader-1 {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-transform: none;
+  color: #48475e;
+}
+/* .form-control{
+  padding: .175rem .75rem;
+} */

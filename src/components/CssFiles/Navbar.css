@@ -1,0 +1,38 @@
+.UserToggle {
+position: absolute;
+  inset: 0px 0px auto auto;
+  margin: 0px;
+  transform: translate3d(0px, 34px, 0px);
+  }
+  .skibidi{
+    opacity: 0.95;
+  }
+  .bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgb(135 189 228 / 35%) !important;
+}
+  .dropdown-toggle {
+    outline: 0;
+  }
+  .active{
+    color: var(--bs-nav-link-hover-color) !important;
+  }
+  .footerfont{
+    font-size: xx-small;
+  }
+  .Wheader-1 {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: normal;
+    text-transform: none;
+    color: #48475e;
+}
+.NavText{
+    font-size: small;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: normal;
+    text-transform: none;
+    color: #78829d;
+}

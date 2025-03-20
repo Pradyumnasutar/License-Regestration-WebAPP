@@ -1,0 +1,124 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  .modal-header{
+    padding: 10px;
+  }
+  .react-datepicker__portal {
+    z-index: 9999 !important;
+  }
+  .custom-datepicker-popper {
+    z-index: 9999 !important;
+  }
+  .modal-content {
+    background: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    min-width: 300px;
+    max-width: 1100px;
+  }
+  
+  .clickable {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .custom-modal-dialog {
+    /* Example: custom width or other styles */
+    max-width: 1000px;
+  }
+  
+  .custom-modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .custom-modal-title {
+    color: #007bff;
+  }
+  
+  .custom-modal-body {
+    padding: 5px;
+  }
+  
+  .custom-modal-footer {
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .custom-close-btn {
+    /* Custom button styling */
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .custom-close-btn:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  .custom-modal-footer{
+    display: flex;
+    align-self: center;
+  }
+  .Modal *{
+font-family: "Poppins";
+  }
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 20px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 20px;
+  }
+  .fs-8{
+    font-size: 0.8rem !important;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(14px);
+  }
+  
+  
