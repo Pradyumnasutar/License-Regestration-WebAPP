@@ -1,0 +1,15 @@
+
+  .required { 
+    color: #d00;
+    content: "*";
+    position: absolute;
+    margin-left: 8px;
+    top:7px;
+}
+.fs-8{
+  font-size: 0.9rem;
+}
+.modal{
+
+--bs-modal-width: 400px;
+}
